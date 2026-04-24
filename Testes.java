@@ -1,14 +1,14 @@
 /*
 *Nos testes, a alteração foi trocar adicionarObservador() e removerObservador()
-por adicionarCallback() e removerCallback(), pois a classe Cidade não implementa
-mais Observador. Agora, cada cidade registra seu método receberDados() como callback
-usando cidade::receberDados, e esse callback é armazenado em uma variável para também
-poder ser removido depois.
+*por adicionarCallback() e removerCallback(), pois a classe Cidade não implementa
+*mais Observador. Agora, cada cidade registra seu método receberDados() como callback
+*usando cidade::receberDados, e esse callback é armazenado em uma variável para também
+*poder ser removido depois.
 
-A vantagem disso é que o SensorAmazonia fica menos dependente das cidades,
-reduzindo o acoplamento entre as classes. Assim, o código fica mais flexível,
-mais fácil de manter e permite adicionar novos receptores sem alterar a lógica
-do sensor.
+*A vantagem disso é que o SensorAmazonia fica menos dependente das cidades,
+*reduzindo o acoplamento entre as classes. Assim, o código fica mais flexível,
+*mais fácil de manter e permite adicionar novos receptores sem alterar a lógica
+*do sensor.
 */
 
 public class Testes {
